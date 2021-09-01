@@ -86,3 +86,45 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
+
+# Contest Scope
+This contest is open for one week. Representatives from Sushi will be available in the Code Arena Discord to answer any questions during the contest period. The focus for the contest is to try and find any logic errors or ways to drain funds from any of the contracts in a way that is advantageous for an attacker at the expense of users. Wardens should assume that governance variables are set sensibly (unless they can find a way to change the value of a governance variable, and not counting social engineering approaches for this).
+
+# Codebase
+
+The full codebase may be found in this repository: https://github.com/sushiswap/miso
+
+# Documentation and special attention
+
+A general documentation explaining the backgrounds of MISO may be found here: https://instantmiso.gitbook.io/miso/dev/token-factory-smart-contract/sushi-token-smart-contract, any contracts in the MISO repository are in scope. 
+A short introduction to the most important contract is to be found below:
+
+# Access Control
+
+## Miso Access Controls
+
+Utilizes OpenZeppelin Access Control to granularly control admin controls for auctions and factories.
+
+## PointList
+
+Allows for WhiteListing of Participants by setting commitment amounts per account.
+
+# Auctions
+## Dutch Auction
+Implementation of a dutch auction with a linearly falling price, with commitments being able to be made in tokens or ETH. 
+
+## Hyperbolic Auction
+
+Implementation of an auction with a price following a price curve, with commitments being able to be made in tokens or ETH. 
+
+## Batch Auction
+
+The batch auction collects funds for a specified period of time and then redistributes the tokens percentually according to the size of the commitments.
+
+## Crowdsale
+
+The Miso crowdsale allows the sale of tokens at a fixed price in ETH or tokens.
+
+# Post Auction Launcher
+
+Allows to launch liquidity to SushiSwap after a successful sale. 
