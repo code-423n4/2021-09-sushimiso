@@ -1,6 +1,6 @@
 # Sushi MISO contest details
-- ~$190,000 (15,200 Sushi) main award pot
-- ~$10,000 (800 Sushi) gas optimization award pot
+- 7,600 Sushi (~$95,000) main award pot
+- 400 Sushi (~$5,000) gas optimization award pot
 - Join [C4 Discord](https://discord.gg/EY5dvm3evD) to register
 - Submit findings [using the C4 form](https://code423n4.com/2021-09-sushi-miso-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
