@@ -5,7 +5,7 @@
 - Submit findings [using the C4 form](https://code423n4.com/2021-09-sushi-miso-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts September 9, 2021 at 00:00 UTC
-- Ends TBD September 22, 2021 at 23:59 UTC
+- Ends September 15, 2021 at 23:59 UTC
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
