@@ -7,8 +7,6 @@
 - Starts September 9, 2021 at 00:00 UTC
 - Ends September 15, 2021 at 23:59 UTC
 
-This repo will be made public before the start of the contest. (C4 delete this line when made public)
-
 # Contest Scope
 The MISO contest will be open for one week. Representatives from Sushi will be available in the Code Arena Discord to answer any questions during the contest period. The focus for the contest is to try to find any errors in the logic of the MISO contract code that would enable an attacker to drain funds from any of the contracts in a way that is advantageous for an attacker at the expense of users. The focus is set broadly in order to allow the wardens to expect the unexpected, and think outside the box. Wardens should assume that governance variables are set sensibly. However, if the wardens are able to find a way to change the value of a governance variable such that the users' funds could become susceptible to an attack as a result, this of course would be included in the scope of the contest. Lastly, we are not including social engineering approaches in this contest.
 
