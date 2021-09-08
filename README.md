@@ -10,7 +10,7 @@
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
 # Contest Scope
-This contest is open for one week. Representatives from Sushi will be available in the Code Arena Discord to answer any questions during the contest period. The focus for the contest is to try to find any errors in the logic of the code that would create undesireable or unexexpected behaviors, or would enable an attacker to drain funds from any of the contracts in a way that is advantageous for an attacker at the expense of users. The focus is set broadly in order to allow the wardens to expect the unexpected, and think outside the box. Wardens should assume that governance variables are set sensibly. However, if the wardens are able to find a way to change the value of a governance variable such that the users' funds could become susceptible to an attack as a result, this of course would be included in the scope of the contest. Lastly, we are not including social engineering approaches in this contest.
+The MISO contest will be open for one week. Representatives from Sushi will be available in the Code Arena Discord to answer any questions during the contest period. The focus for the contest is to try to find any errors in the logic of the MISO contract code that would enable an attacker to drain funds from any of the contracts in a way that is advantageous for an attacker at the expense of users. The focus is set broadly in order to allow the wardens to expect the unexpected, and think outside the box. Wardens should assume that governance variables are set sensibly. However, if the wardens are able to find a way to change the value of a governance variable such that the users' funds could become susceptible to an attack as a result, this of course would be included in the scope of the contest. Lastly, we are not including social engineering approaches in this contest.
 
 # Codebase
 The full codebase may be found in this repository: https://github.com/sushiswap/miso
@@ -25,9 +25,9 @@ A general documentation explaining the backgrounds of MISO may be found here:
 
 https://instantmiso.gitbook.io/miso/dev/token-factory-smart-contract/sushi-token-smart-contract, and all of the contracts in the MISO repository are in scope. 
 
-While all of the contracts are in scope, specific focus should be paid to the elements listed below:
+While all of the contracts are in scope, specific focus should be paid to the contracts listed below:
 
-| Focus for the Contest | Description |
+| Contracts | Description |
 |-------------------------------|------------------------------------------------------|
 | Post-Auction Launcher | Allows to launch liquidity to SushiSwap after a successful sale. |
 | Access Controls | Utilizes OpenZeppelin Access Control to granularly control admin controls for auctions and factories. |
@@ -57,7 +57,7 @@ https://github.com/sushiswap/miso/blob/master/contracts/Access/PointList.sol
 
 Below is a non-technical description of PointList, which is an access control smart contract that can be found by following the link above.
 
-The Pointlist contract gives the admin the ability to set parameters for the participants of the auction such that each paticipant falls under a specific threshold that is unique to the auction type, and thus the needs of the founder.
+The Pointlist contract gives the admin the ability to set parameters for the participants of the auction such that each paticipant falls under a specific threshold that is unique to the auction type, and thus the needs of the founder. This enables the founder to control who can participate in the auction.
 
 # Auctions
 https://github.com/sushiswap/miso/tree/master/contracts/Auctions
