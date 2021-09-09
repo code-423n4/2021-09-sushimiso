@@ -12,6 +12,7 @@ The MISO contest will be open for one week. Representatives from Sushi will be a
 
 # Codebase
 The full codebase may be found in this repository: https://github.com/sushiswap/miso
+The relevant commit hash is Commit: 2cdb1486a55ded55c81898b7be8811cb68cfda9e on the master branch.
 
 # Protocol Overview
 
